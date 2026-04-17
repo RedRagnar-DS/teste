@@ -24,7 +24,9 @@ while True:
     print("16 - Metodo de Lista")
     print("17 - Set")
     print("18 - Tupla")
-    print("19 - Triangulo Turbo")
+    print("19 - Triangulo Turbo pro Max")
+    print("20 - Dicionário")
+    print("21 - Dicionário Aninhado")
     print("0 - Sair do Programa")
 
     opcao = input("Escolha: ")
@@ -67,6 +69,10 @@ while True:
         spr.run(["python", "18-tupla.py"])
     elif opcao == "19":
         spr.run(["python", "19-triangulo2.py"])
+    elif opcao == "20":
+        spr.run(["python", "20-dicionario.py"])
+    elif opcao == "21":
+        spr.run(["python", "21-dicionario-aninhado.py"])
     elif opcao == "0":
         break
     else:
