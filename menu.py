@@ -77,10 +77,4 @@ while True:
         break
     else:
         print("\n[*** opção invalida ***]")
-    time.sleep(10)
-
-   # match(opcao):
-   #     case "1":
-   #         spr.run(["python", "tabuada_turbo.py"])
-    #    case "2":
-    #        spr.run(["python", "9-lista.py"])
+    time.sleep(2)
